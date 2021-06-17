@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.reset-margin {
+    margin-left: initial !important;
+    margin-right: initial !important;
+}
